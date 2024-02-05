@@ -1,0 +1,52 @@
+*, body{
+    font-family: monospace;
+    font-size: 18px;
+    color:white;
+}
+html, body {
+    width: 100%;
+    margin: 0;
+    background-color: rgb(10,10,10);
+}
+
+.main {
+    margin: 40px;
+}
+
+.txt-16 { font-size: 16px }
+.txt-18 { font-size: 18px }
+.txt-24 { font-size: 24px }
+.txt-28 { font-size: 28px }
+.txt-32 { font-size: 32px }
+.txt-64 { font-size: 64px }
+
+.mb-7 { margin-bottom: 7px }
+.mb-12 { margin-bottom: 12px }
+.mb-24 { margin-bottom: 24px }
+/* .mb-7 { margin-bottom: 7 } */
+
+#input-file { display: none }
+
+.load-file {
+    border: 1px solid white;
+    padding: 7px 10px;
+}
+
+.input_p div {
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr) ;
+}
+
+.border { border: 1px dashed rgb(180,180,180)}
+
+button {
+    background-color: rgb(10,10,10);
+    border: 1px solid gray;
+}
+
+.hide { display: none }
+
+.grid {
+    display: grid;
+    
+}
